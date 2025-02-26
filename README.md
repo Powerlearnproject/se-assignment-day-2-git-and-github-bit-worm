@@ -3,9 +3,30 @@
 # se-day-2-git-and-github
 ## Explain the fundamental concepts of version control and why GitHub is a popular tool for managing versions of code. How does version control help in maintaining project integrity?
 
+-> Version control is keeping track of project changes and being able save key points of a project which you can check on and return to at any point during development. All your changes, creation, deletion, editing are being monitored.
+
+GitHub is porpular sing it is free, it provide a wide range of features which are easy to use, it intergrates well with git. Some features include, code collaboration with branches and merging, an editor on the platform.
+
+Version control helps with code integrity by providing a way to monitor and view every change being made on the project. This means you will always know what was done and when it was done.
+
 ## Describe the process of setting up a new repository on GitHub. What are the key steps involved, and what are some of the important decisions you need to make during this process?
 
+-> To create a new repostory on github;
+
+On the right side of the top bar in github, there is a + sign with a dropdown arrow, when you click there is a menu with options one being new repository. When you click on it you will be taken to a page where you can create your repository.
+
+Important:
+
+  - The name should not match in of your existing repositories.
+  - There's an option to add a dsescription to your repo, which would give information about your repo.
+  - Your repo can be public or private, public means anyone can see it, also anyone can fork it, clone, star. This is important if you want collaboration on your repo. A private repo is only visible to you and collaboration isn't possible.
+  - A README.md file. This is often used to describe your project, provide documentation, a wiki for users visiting your project. This is a very important file in your project.
+  - There's gitignore. This means there are some files that you can choose not to keep track of. What you add in .gitignore will be ignored by git.
+  - License. You can choose some liseces, provided on github for your project. Example the MIT license means anyone can use what is in your repo, edit it anyway they want and use it for their own work.
+
 ## Discuss the importance of the README file in a GitHub repository. What should be included in a well-written README, and how does it contribute to effective collaboration?
+
+-> 
 
 ## Compare and contrast the differences between a public repository and a private repository on GitHub. What are the advantages and disadvantages of each, particularly in the context of collaborative projects?
 
