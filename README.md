@@ -3,7 +3,7 @@
 # se-day-2-git-and-github
 ## Explain the fundamental concepts of version control and why GitHub is a popular tool for managing versions of code. How does version control help in maintaining project integrity?
 
--> Version control is keeping track of project changes and being able save key points of a project which you can check on and return to at any point during development. All your changes, creation, deletion, editing are being monitored.
+Version control is keeping track of project changes and being able save key points of a project which you can check on and return to at any point during development. All your changes, creation, deletion, editing are being monitored.
 
 GitHub is porpular sing it is free, it provide a wide range of features which are easy to use, it intergrates well with git. Some features include, code collaboration with branches and merging, an editor on the platform.
 
@@ -11,7 +11,7 @@ Version control helps with code integrity by providing a way to monitor and view
 
 ## Describe the process of setting up a new repository on GitHub. What are the key steps involved, and what are some of the important decisions you need to make during this process?
 
--> To create a new repostory on github;
+To create a new repostory on github;
 
 On the right side of the top bar in github, there is a + sign with a dropdown arrow, when you click there is a menu with options one being new repository. When you click on it you will be taken to a page where you can create your repository.
 
@@ -26,11 +26,40 @@ Important:
 
 ## Discuss the importance of the README file in a GitHub repository. What should be included in a well-written README, and how does it contribute to effective collaboration?
 
--> 
+A README file is a form of documentation about your project. It provides a detailed info about what your project is all about and how to use it.
+It is useful for collaboration since it gives the objective of the project and anyone visiting the repo for collaboration would know exactly what is being worked on and what is required for the project.
+
+It should contain:
+  - The project name
+  - A good description telling what the project does.
+  - A preview of the project.
+  - Instructions on how to collaborate or get in touch with the developer.
+  - A list of dependencies if someone is looking to use your program.
+  - A detailed manual/instruction on how one can install the program.
+  - A help manual on how to use the program and any exceptions for varying systems.
 
 ## Compare and contrast the differences between a public repository and a private repository on GitHub. What are the advantages and disadvantages of each, particularly in the context of collaborative projects?
 
+A private repository is one which is visible only to the developer.
+
+It is benefitial if you are working on a personal project which you do not wish to share with anyone. Good for a project with private information.
+
+It is also good if you do not what other people stealing your code.
+
+A dsadvantage about it is that you can't get help from other developers. Since it is only visible to you, no one else can view the repo to offer collaboration.
+
+A public repo is one which is visible to anyone on the internet. Anyone can visit and view the repo to see what you are working on.
+
+An advantage of this is that anyone can visit, see your work and offer collaboration and you can be able to work on the project with them.
+
+Also people can star your repository which will improve your popularity on github.
+
+A disadvantage is that it is not good if you are working on a personal project with personal information.
+
 ## Detail the steps involved in making your first commit to a GitHub repository. What are commits, and how do they help in tracking changes and managing different versions of your project?
+
+The steps of you first commit:
+  1. In your folder containing your work, write; `git init`
 
 ## How does branching work in Git, and why is it an important feature for collaborative development on GitHub? Discuss the process of creating, using, and merging branches in a typical workflow.
 
